@@ -10,7 +10,7 @@
 <body>
     <p>Hello</p>
 <%
-out.println("Modified Insults");
+out.println("Modified Insults 2");
 out.println(new InsultGenerator().generateInsult());
 %>
 
