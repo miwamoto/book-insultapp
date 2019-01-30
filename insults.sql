@@ -8,6 +8,7 @@ CREATE TABLE short_adjective (id serial PRIMARY KEY, string varchar);
 CREATE TABLE long_adjective (id serial PRIMARY KEY, string varchar);
 CREATE TABLE noun (id serial PRIMARY KEY, string varchar);
 
+INSERT INTO short_adjective (string) VALUES ("abby-normal");
 INSERT INTO short_adjective (string) VALUES ('artless');
 INSERT INTO short_adjective (string) VALUES ('bawdy');
 INSERT INTO short_adjective (string) VALUES ('beslubbering');
