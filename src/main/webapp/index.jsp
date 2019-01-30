@@ -10,6 +10,7 @@
 <body>
     <p>Hello</p>
 <%
+out.println("Modified Insults");
 out.println(new InsultGenerator().generateInsult());
 %>
 
